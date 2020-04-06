@@ -35,8 +35,9 @@ template <class Item> class List {
      struct Element {
           Item inf;
           Element *next;
-          Element(Item x) : inf(x), next(0) {}
+          Element(Item x, Element* ref = nullptr) : inf(x), next(ref) {}
      };
+     Element *last;
      Element *head;
      int size;
      Element *find(int ind) {
@@ -53,8 +54,7 @@ template <class Item> class List {
      }
      public:
           List()
-               : head(0), size(0)
-          {}
+               : head(nullptr), size(0), last(nullptr) {};
           ~List() {
                while (!Empty()) {
                     remove(1);
@@ -88,9 +88,9 @@ template <class Item> class List {
           }
           void print() {
                for (Element *cur = head; cur != NULL; cur = cur -> next) {
-                    out << cur -> inf << " ";
+                    cout << cur -> inf << " ";
                }
-               out << endl;
+               cout << endl;
           }
           void insert(int ind, Item data) {
                Element *newPtr = new Element(data);
@@ -105,9 +105,69 @@ template <class Item> class List {
                     prev -> next = newPtr;
                }
           }
+          void add(Item x) {
+               size++;
+               Element *item = new Element(x);
+               if (last != nullptr) {
+                    last->next = item;
+               }
+               last = item;
+               if (head == nullptr) {
+                    head = last;
+               }
+          }
+          void doubleX(Item x) {
+               for (Element *t = head; t!= nullptr; t = t -> next) {
+                    if (t -> inf == x) {
+                         size++;
+                         Element *newElement = new Element(x, t -> next);
+                         t -> next = newElement;
+                         t = t -> next;
+                    }
+               }
+          }
+          void del(Item x) {
+               int n = 1;
+               for (Element *t = head; t != nullptr; t = t -> next) {
+                    if (t -> inf == x && n != 1) {
+                         remove(n - 1);
+                    }
+                    else {
+                         n++;
+                    }
+               }
+          }
+          List ret(Item x) {
+               List <Item> l1;
+               int n = 2;
+               for (Element *t = head + 1; t != nullptr; t = t -> next) {
+                    if (t -> inf == x) {
+                         l1.add(t -> inf);   
+                         n++;
+                    }
+                    else {
+                         Element *r = find(n - 1);
+                         Item i = r -> inf;
+                         l1.add(i);
+                         l1.add(t -> inf);
+                         n++;
+                    }
+               }
+               return l1;
+          }
 };
 
 int main () {
+     List <int> l;
+     List <int> lst;
+     l.add(5);
+     l.add(2);
+     l.add(3);
+     l.add(5);
+     l.add(4);
+     l.add(5);
+     lst = l.ret(5);
+     l.print();
 
 
 }
