@@ -35,7 +35,7 @@ template <class Item> class List {
      struct Element {
           Item inf;
           Element *next;
-          Element(Item x, Element* ref = nullptr) : inf(x), next(ref) {}
+          Element(Item x, Element* ref = NULL) : inf(x), next(ref) {}
      };
      Element *last;
      Element *head;
@@ -54,7 +54,8 @@ template <class Item> class List {
      }
      public:
           List()
-               : head(nullptr), size(0), last(nullptr) {};
+               : head(0), size(0), last(0)
+          {}
           ~List() {
                while (!Empty()) {
                     remove(1);
@@ -73,7 +74,6 @@ template <class Item> class List {
           }
           void remove(int ind) {
                Element *cur;
-               size--;
                if (ind == 1) {
                     cur = head;
                     head = head -> next;
@@ -85,16 +85,17 @@ template <class Item> class List {
                }
                cur -> next = NULL;
                delete cur;
+               size--;
           }
           void print() {
-               for (Element *cur = head; cur != NULL; cur = cur -> next) {
+               for (Element *cur = head; cur != 0; cur = cur -> next) {
                     cout << cur -> inf << " ";
                }
                cout << endl;
           }
           void insert(int ind, Item data) {
                Element *newPtr = new Element(data);
-               size = len() + 1;
+               size++;
                if (ind == 1) {
                     newPtr -> next = head;
                     head = newPtr;
@@ -108,16 +109,16 @@ template <class Item> class List {
           void add(Item x) {
                size++;
                Element *item = new Element(x);
-               if (last != nullptr) {
+               if (last != NULL) {
                     last->next = item;
                }
                last = item;
-               if (head == nullptr) {
+               if (head == NULL) {
                     head = last;
                }
           }
           void doubleX(Item x) {
-               for (Element *t = head; t!= nullptr; t = t -> next) {
+               for (Element *t = head; t!= NULL; t = t -> next) {
                     if (t -> inf == x) {
                          size++;
                          Element *newElement = new Element(x, t -> next);
@@ -126,9 +127,9 @@ template <class Item> class List {
                     }
                }
           }
-          void del(Item x) {
+          /*void del(Item x) {
                int n = 1;
-               for (Element *t = head; t != nullptr; t = t -> next) {
+               for (Element *t = head; t != NULL; t = t -> next) {
                     if (t -> inf == x && n != 1) {
                          remove(n - 1);
                     }
@@ -136,24 +137,25 @@ template <class Item> class List {
                          n++;
                     }
                }
-          }
-          List ret(Item x) {
+               cout << n << endl;
+          }*/
+          void ret(List l,Item x) {
                List <Item> l1;
-               int n = 2;
-               for (Element *t = head + 1; t != nullptr; t = t -> next) {
+               l1.add(get(1));
+               int n = 1;
+               int k = 1;
+               for (Element *t = head + 1; t != NULL; t = t -> next) {
                     if (t -> inf == x) {
-                         l1.add(t -> inf);   
-                         n++;
+                         l1.remove(n);
+                         l1.add(x);
                     }
                     else {
-                         Element *r = find(n - 1);
-                         Item i = r -> inf;
-                         l1.add(i);
                          l1.add(t -> inf);
                          n++;
                     }
                }
-               return l1;
+               l1.print();
+               l.print();
           }
 };
 
@@ -163,11 +165,11 @@ int main () {
      l.add(5);
      l.add(2);
      l.add(3);
-     l.add(5);
      l.add(4);
+     l.add(6);
      l.add(5);
-     lst = l.ret(5);
+     l.add(12);
+     l.add(13);
      l.print();
-
-
+     l.ret(l,6);
 }
