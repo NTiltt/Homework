@@ -133,9 +133,57 @@ public:
           }
           else return false;
      }
+     void insert_before(int x, int y) {
+          if (find(x) != -1) {
+               if (cnt < n) {
+                    for (int i = n - 1; i >= find(x); i--) {
+                         mas[i] = mas[i - 1];
+                    }
+                    mas[find(x) - 1] = y;
+                    cnt++;
+                    this -> n++;
+               }
+               else {
+                    int *newArray = new int [this -> n + 1];
+                    forn(i,this -> n) {
+                         newArray[i] = mas[i];
+                    }
+                    delete[] mas;
+                    mas = newArray;
+                    for (int i = n; i >= find(x); i--) {
+                         mas[i] = mas[i - 1];
+                    }
+                    mas[find(x) - 1] = y;
+                    cnt++;
+                    this -> n++;
+               }
+          }
+     }
+     int find_min() {
+          int m = INT_MAX;
+          int ind;
+          forn(i,cnt) {
+               if (mas[i] < m) {
+                    m = mas[i];
+                    ind = i;
+               }
+          }
+          return m;
+     }
 
 };
 int& SimpleVector::operator [](int ind) {
      return mas[ind];
 }
 int SimpleVector::cnt = 0;
+
+int main() {
+     int n;
+     cin >> n;
+     SimpleVector arr(n);
+     arr.read();
+     int m = arr.find_min();
+     arr.insert_after(m,0);
+     arr.insert_before(m,0);
+     arr.print();
+}
