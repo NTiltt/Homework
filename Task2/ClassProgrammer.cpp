@@ -260,6 +260,4 @@ int main () {
      cout << endl;
      p.Kod(kol);
      p.search_bug();
-
-
 }
