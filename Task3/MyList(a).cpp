@@ -179,5 +179,4 @@ int main() {
      l.insert(m + 2,0);
      l.insert(m + 1,0);
      l.print();
-
 }

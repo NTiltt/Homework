@@ -161,7 +161,20 @@ public:
      void search_bug() {
           srand(time(NULL));
           cout << endl;
-          cout << "Ваш программист смог исправить: " << rand() % 100 <<" багов." << endl;
+          if (this->level == "junior") {
+               cout << "Ваш программист смог исправить: " << rand() % 100 <<" багов." << endl;
+          }
+          else {
+               if (this->level == "middle") {
+                    cout << "Ваш программист смог исправить: " << rand() % 200 <<" багов." << endl;
+               }
+               else {
+                    if (this -> level == "senior") {
+                         cout << "Ваш программист смог исправить: " << rand() % 500 <<" багов." << endl;
+                    }
+               }
+          }
+
      }
 
 };
