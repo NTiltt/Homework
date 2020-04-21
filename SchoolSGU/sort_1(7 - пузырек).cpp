@@ -38,6 +38,7 @@ void student::print() {
      forn(i,5) {
           out << ses[i] << " ";
      }
+     out << key;
      out << endl;
 }
 void sort (student *a, int n) {
