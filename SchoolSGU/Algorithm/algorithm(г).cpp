@@ -1,0 +1,88 @@
+//
+// Created by Никита Ясеник on 27.04.2020.
+//
+
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <cmath>
+#include <fstream>
+#include <string>
+#include <map>
+#include <set>
+#include <iterator>
+#include <list>
+#include <queue>
+#include <stack>
+#include <ctime>
+#include <cstddef>
+
+
+#define sz(a) ((int)a.size())
+#define all(a) a.begin(), a.end()
+#define fore(i, l, r) for(int i = int(l); i < int(r); i++)
+#define forn(i, n) fore(i, 0, n)
+#define pb push_back
+#define x first
+#define y second
+#define mp make_pair
+
+using namespace std;
+
+//ifstream in("/Users/nikita/Documents/Atom/input.txt");
+//ofstream out("/Users/nikita/Documents/Atom/output.txt");
+
+typedef long double ld;
+
+const int N = int(1e6) + 111;
+const ld EPS = 1e-7;
+
+bool cmp(pair<int,int> p1,pair<int,int> p2) {
+    return p1.x > p2.x;
+}
+int main () {
+    int n;
+    cin >> n;
+    vector <pair<int,int>> v;
+    forn(i,n) {
+        int a,b;
+        cin >> a >> b;
+        v.pb(mp(a,b));
+    }
+    sort(all(v),cmp);
+    forn(i,sz(v)) {
+        cout << v[i].x << " " << v[i].y << endl;
+    }
+}
+/*
+ *                                  Тестовые примеры:
+ *
+ *                      1) 5
+ *                          2 1
+ *                          3 4
+ *                          5 6
+ *                          3 4
+ *                          8 8
+ *                          Вывод:
+ *                          8 8
+ *                          5 6
+ *                          3 4
+ *                          3 4
+ *                          2 1
+ *
+ *                        2)6
+ *                          0 1
+ *                          10 2
+ *                          6 6
+ *                          8 -5
+ *                          -4 5
+ *                          4 4
+ *                          Вывод:
+ *                          10 2
+ *                          8 -5
+ *                          6 6
+ *                          4 4
+ *                          0 1
+ *                          -4 5
+ *
+ * */
