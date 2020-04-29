@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nikita/Documents/Clion/Homework/Task4/Queue.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+cmath
+-
+fstream
+-
+string
+-
+map
+-
+set
+-
+iterator
+-
+list
+-
+queue
+-
+stack
+-
+ctime
+-
+cstddef
+-
+
