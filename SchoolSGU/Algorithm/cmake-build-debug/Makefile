@@ -123,32 +123,113 @@ Algorithm/fast:
 	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-main.o: main.cpp.o
+algorithm(a).o: algorithm(a).cpp.o
 
-.PHONY : main.o
+.PHONY : algorithm(a).o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/main.cpp.o
-.PHONY : main.cpp.o
+algorithm(a).cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make "CMakeFiles/Algorithm.dir/algorithm(a).cpp.o"
+.PHONY : algorithm(a).cpp.o
 
-main.i: main.cpp.i
+algorithm(a).i: algorithm(a).cpp.i
 
-.PHONY : main.i
+.PHONY : algorithm(a).i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/main.cpp.i
-.PHONY : main.cpp.i
+algorithm(a).cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make "CMakeFiles/Algorithm.dir/algorithm(a).cpp.i"
+.PHONY : algorithm(a).cpp.i
 
-main.s: main.cpp.s
+algorithm(a).s: algorithm(a).cpp.s
 
-.PHONY : main.s
+.PHONY : algorithm(a).s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/main.cpp.s
-.PHONY : main.cpp.s
+algorithm(a).cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make "CMakeFiles/Algorithm.dir/algorithm(a).cpp.s"
+.PHONY : algorithm(a).cpp.s
+
+algorithm(б).o: algorithm(б).cpp.o
+
+.PHONY : algorithm(б).o
+
+# target to build an object file
+algorithm(б).cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make "CMakeFiles/Algorithm.dir/algorithm(б).cpp.o"
+.PHONY : algorithm(б).cpp.o
+
+algorithm(б).i: algorithm(б).cpp.i
+
+.PHONY : algorithm(б).i
+
+# target to preprocess a source file
+algorithm(б).cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make "CMakeFiles/Algorithm.dir/algorithm(б).cpp.i"
+.PHONY : algorithm(б).cpp.i
+
+algorithm(б).s: algorithm(б).cpp.s
+
+.PHONY : algorithm(б).s
+
+# target to generate assembly for a file
+algorithm(б).cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make "CMakeFiles/Algorithm.dir/algorithm(б).cpp.s"
+.PHONY : algorithm(б).cpp.s
+
+algorithm(в).o: algorithm(в).cpp.o
+
+.PHONY : algorithm(в).o
+
+# target to build an object file
+algorithm(в).cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make "CMakeFiles/Algorithm.dir/algorithm(в).cpp.o"
+.PHONY : algorithm(в).cpp.o
+
+algorithm(в).i: algorithm(в).cpp.i
+
+.PHONY : algorithm(в).i
+
+# target to preprocess a source file
+algorithm(в).cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make "CMakeFiles/Algorithm.dir/algorithm(в).cpp.i"
+.PHONY : algorithm(в).cpp.i
+
+algorithm(в).s: algorithm(в).cpp.s
+
+.PHONY : algorithm(в).s
+
+# target to generate assembly for a file
+algorithm(в).cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make "CMakeFiles/Algorithm.dir/algorithm(в).cpp.s"
+.PHONY : algorithm(в).cpp.s
+
+algorithm(г).o: algorithm(г).cpp.o
+
+.PHONY : algorithm(г).o
+
+# target to build an object file
+algorithm(г).cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make "CMakeFiles/Algorithm.dir/algorithm(г).cpp.o"
+.PHONY : algorithm(г).cpp.o
+
+algorithm(г).i: algorithm(г).cpp.i
+
+.PHONY : algorithm(г).i
+
+# target to preprocess a source file
+algorithm(г).cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make "CMakeFiles/Algorithm.dir/algorithm(г).cpp.i"
+.PHONY : algorithm(г).cpp.i
+
+algorithm(г).s: algorithm(г).cpp.s
+
+.PHONY : algorithm(г).s
+
+# target to generate assembly for a file
+algorithm(г).cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make "CMakeFiles/Algorithm.dir/algorithm(г).cpp.s"
+.PHONY : algorithm(г).cpp.s
 
 # Help Target
 help:
@@ -159,9 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Algorithm"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... algorithm(a).o"
+	@echo "... algorithm(a).i"
+	@echo "... algorithm(a).s"
+	@echo "... algorithm(б).o"
+	@echo "... algorithm(б).i"
+	@echo "... algorithm(б).s"
+	@echo "... algorithm(в).o"
+	@echo "... algorithm(в).i"
+	@echo "... algorithm(в).s"
+	@echo "... algorithm(г).o"
+	@echo "... algorithm(г).i"
+	@echo "... algorithm(г).s"
 .PHONY : help
 
 

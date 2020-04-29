@@ -2,7 +2,7 @@
 // Created by Никита Ясеник on 26.04.2020.
 //
 
-#include <iostream>
+/*#include <iostream>
 #include <vector>
 #include <algorithm>
 #include <cmath>
@@ -52,3 +52,4 @@ int main () {
     });
     cout << cnt << endl;
 }
+*/

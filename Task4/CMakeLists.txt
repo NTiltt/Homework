@@ -3,4 +3,4 @@ project(Task4)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Task4 main.cpp Queue.cpp)
+add_executable(Task4 main.cpp Queue.cpp stack.cpp)

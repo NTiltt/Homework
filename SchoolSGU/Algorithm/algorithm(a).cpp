@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <vector>
 #include <algorithm>
 #include <cmath>
@@ -50,3 +50,4 @@ int main () {
         cout << v[i].x << " " << v[i].y << endl;
     }
 }
+*/

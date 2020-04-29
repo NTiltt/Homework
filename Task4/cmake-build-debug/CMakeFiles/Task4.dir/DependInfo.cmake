@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/nikita/Documents/Clion/Homework/Task4/Queue.cpp" "/Users/nikita/Documents/Clion/Homework/Task4/cmake-build-debug/CMakeFiles/Task4.dir/Queue.cpp.o"
   "/Users/nikita/Documents/Clion/Homework/Task4/main.cpp" "/Users/nikita/Documents/Clion/Homework/Task4/cmake-build-debug/CMakeFiles/Task4.dir/main.cpp.o"
+  "/Users/nikita/Documents/Clion/Homework/Task4/stack.cpp" "/Users/nikita/Documents/Clion/Homework/Task4/cmake-build-debug/CMakeFiles/Task4.dir/stack.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

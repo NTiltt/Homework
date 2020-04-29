@@ -78,7 +78,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/main.cpp">
+		<Unit filename="/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/algorithm(a).cpp">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/algorithm(б).cpp">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/algorithm(в).cpp">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/algorithm(г).cpp">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/CMakeLists.txt">

@@ -5,3 +5,5 @@ CMakeFiles/Task4.dir/Queue.cpp.o: ../Queue.cpp
 
 CMakeFiles/Task4.dir/main.cpp.o: ../main.cpp
 
+CMakeFiles/Task4.dir/stack.cpp.o: ../stack.cpp
+

@@ -2,7 +2,7 @@
 // Created by Никита Ясеник on 26.04.2020.
 //
 
-#include <iostream>
+/*#include <iostream>
 #include <vector>
 #include <algorithm>
 #include <cmath>
@@ -65,6 +65,7 @@ int main () {
         cout << q[v[i].x].x << " " << q[v[i].x].y << endl;
     }
 }
+ */
 /*
  *                                  Тестовые примеры:
  *                1) 5
@@ -87,5 +88,5 @@ int main () {
  *                      2 1
  *                      1 2
  *                      2 1
- *                      
+ *
  * */

@@ -3,4 +3,4 @@ project(Algorithm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Algorithm "algorithm(a).cpp")
+add_executable(Algorithm "algorithm(б).cpp" "algorithm(a).cpp" "algorithm(в).cpp" "algorithm(г).cpp")

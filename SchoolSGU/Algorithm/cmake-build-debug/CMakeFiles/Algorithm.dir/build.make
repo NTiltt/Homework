@@ -57,30 +57,75 @@ include CMakeFiles/Algorithm.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Algorithm.dir/flags.make
 
-CMakeFiles/Algorithm.dir/main.cpp.o: CMakeFiles/Algorithm.dir/flags.make
-CMakeFiles/Algorithm.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithm.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm.dir/main.cpp.o -c /Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/main.cpp
+CMakeFiles/Algorithm.dir/algorithm(б).cpp.o: CMakeFiles/Algorithm.dir/flags.make
+CMakeFiles/Algorithm.dir/algorithm(б).cpp.o: ../algorithm(б).cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithm.dir/algorithm(б).cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/Algorithm.dir/algorithm(б).cpp.o" -c "/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/algorithm(б).cpp"
 
-CMakeFiles/Algorithm.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/main.cpp > CMakeFiles/Algorithm.dir/main.cpp.i
+CMakeFiles/Algorithm.dir/algorithm(б).cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/algorithm(б).cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/algorithm(б).cpp" > "CMakeFiles/Algorithm.dir/algorithm(б).cpp.i"
 
-CMakeFiles/Algorithm.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/main.cpp -o CMakeFiles/Algorithm.dir/main.cpp.s
+CMakeFiles/Algorithm.dir/algorithm(б).cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/algorithm(б).cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/algorithm(б).cpp" -o "CMakeFiles/Algorithm.dir/algorithm(б).cpp.s"
+
+CMakeFiles/Algorithm.dir/algorithm(a).cpp.o: CMakeFiles/Algorithm.dir/flags.make
+CMakeFiles/Algorithm.dir/algorithm(a).cpp.o: ../algorithm(a).cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Algorithm.dir/algorithm(a).cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/Algorithm.dir/algorithm(a).cpp.o" -c "/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/algorithm(a).cpp"
+
+CMakeFiles/Algorithm.dir/algorithm(a).cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/algorithm(a).cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/algorithm(a).cpp" > "CMakeFiles/Algorithm.dir/algorithm(a).cpp.i"
+
+CMakeFiles/Algorithm.dir/algorithm(a).cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/algorithm(a).cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/algorithm(a).cpp" -o "CMakeFiles/Algorithm.dir/algorithm(a).cpp.s"
+
+CMakeFiles/Algorithm.dir/algorithm(в).cpp.o: CMakeFiles/Algorithm.dir/flags.make
+CMakeFiles/Algorithm.dir/algorithm(в).cpp.o: ../algorithm(в).cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Algorithm.dir/algorithm(в).cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/Algorithm.dir/algorithm(в).cpp.o" -c "/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/algorithm(в).cpp"
+
+CMakeFiles/Algorithm.dir/algorithm(в).cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/algorithm(в).cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/algorithm(в).cpp" > "CMakeFiles/Algorithm.dir/algorithm(в).cpp.i"
+
+CMakeFiles/Algorithm.dir/algorithm(в).cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/algorithm(в).cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/algorithm(в).cpp" -o "CMakeFiles/Algorithm.dir/algorithm(в).cpp.s"
+
+CMakeFiles/Algorithm.dir/algorithm(г).cpp.o: CMakeFiles/Algorithm.dir/flags.make
+CMakeFiles/Algorithm.dir/algorithm(г).cpp.o: ../algorithm(г).cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Algorithm.dir/algorithm(г).cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/Algorithm.dir/algorithm(г).cpp.o" -c "/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/algorithm(г).cpp"
+
+CMakeFiles/Algorithm.dir/algorithm(г).cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/algorithm(г).cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/algorithm(г).cpp" > "CMakeFiles/Algorithm.dir/algorithm(г).cpp.i"
+
+CMakeFiles/Algorithm.dir/algorithm(г).cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/algorithm(г).cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/algorithm(г).cpp" -o "CMakeFiles/Algorithm.dir/algorithm(г).cpp.s"
 
 # Object files for target Algorithm
 Algorithm_OBJECTS = \
-"CMakeFiles/Algorithm.dir/main.cpp.o"
+"CMakeFiles/Algorithm.dir/algorithm(б).cpp.o" \
+"CMakeFiles/Algorithm.dir/algorithm(a).cpp.o" \
+"CMakeFiles/Algorithm.dir/algorithm(в).cpp.o" \
+"CMakeFiles/Algorithm.dir/algorithm(г).cpp.o"
 
 # External object files for target Algorithm
 Algorithm_EXTERNAL_OBJECTS =
 
-Algorithm: CMakeFiles/Algorithm.dir/main.cpp.o
+Algorithm: CMakeFiles/Algorithm.dir/algorithm(б).cpp.o
+Algorithm: CMakeFiles/Algorithm.dir/algorithm(a).cpp.o
+Algorithm: CMakeFiles/Algorithm.dir/algorithm(в).cpp.o
+Algorithm: CMakeFiles/Algorithm.dir/algorithm(г).cpp.o
 Algorithm: CMakeFiles/Algorithm.dir/build.make
 Algorithm: CMakeFiles/Algorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Algorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nikita/Documents/Clion/Homework/SchoolSGU/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Algorithm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Algorithm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
