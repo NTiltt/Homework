@@ -88,12 +88,6 @@ public:
             this -> push(x);
         }
     }
-    void swap(const Queue& q1, Queue& q2) {
-        Queue q3;
-        for (Element *cur = q1.head; cur != 0; cur = cur->next) {
-            q2.push(cur->inf);
-        }
-    }
 };
 
 int main () {
