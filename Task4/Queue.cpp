@@ -2,7 +2,7 @@
 // @author: Nikita 
 //
 
-/*#include <iostream>
+#include <iostream>
 #include <vector>
 #include <algorithm>
 #include <cmath>
@@ -69,4 +69,3 @@ int main () {
         }
     }
 }
-*/
